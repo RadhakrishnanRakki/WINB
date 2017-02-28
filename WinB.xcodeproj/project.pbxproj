@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7C4EEECCEEA6DA23868675 /* Pods_WinBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC759246CE4DE32E3A0FA6 /* Pods_WinBUITests.framework */; };
+		436F2D9EDFC932C14AC69B11 /* Pods_WinBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15A03CD25A7B93F51A3985 /* Pods_WinBTests.framework */; };
+		E058EC3EB93AC97CEB4571A3 /* Pods_WinB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9DE9AB23164CB1BE678E56 /* Pods_WinB.framework */; };
+		F1E4E9F11E65AC61004D76EB /* AccountsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9E81E65AC61004D76EB /* AccountsMenuViewController.swift */; };
+		F1E4E9F21E65AC61004D76EB /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9E91E65AC61004D76EB /* AccountsViewController.swift */; };
+		F1E4E9F31E65AC61004D76EB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9EA1E65AC61004D76EB /* BaseViewController.swift */; };
+		F1E4E9F41E65AC61004D76EB /* ContactsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9EB1E65AC61004D76EB /* ContactsProfileViewController.swift */; };
+		F1E4E9F51E65AC61004D76EB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9EC1E65AC61004D76EB /* ContactsViewController.swift */; };
+		F1E4E9F61E65AC61004D76EB /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9ED1E65AC61004D76EB /* LeftMenuViewController.swift */; };
+		F1E4E9F71E65AC61004D76EB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9EE1E65AC61004D76EB /* MenuViewController.swift */; };
+		F1E4E9F81E65AC61004D76EB /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9EF1E65AC61004D76EB /* ResetViewController.swift */; };
+		F1E4E9F91E65AC61004D76EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9F01E65AC61004D76EB /* ViewController.swift */; };
+		F1E4E9FB1E65AC96004D76EB /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9FA1E65AC96004D76EB /* SSASideMenu.swift */; };
+		F1E4EA051E65AD33004D76EB /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4E9FE1E65AD33004D76EB /* DropMenuButton.swift */; };
+		F1E4EA061E65AD33004D76EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4EA001E65AD33004D76EB /* MBProgressHUD.m */; };
+		F1E4EA071E65AD33004D76EB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4EA021E65AD33004D76EB /* Reachability.swift */; };
+		F1E4EA081E65AD33004D76EB /* RKDropdownAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4EA041E65AD33004D76EB /* RKDropdownAlert.m */; };
+		F1E4EA0E1E65AD8B004D76EB /* Accounts.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E4EA0A1E65AD8B004D76EB /* Accounts.plist */; };
+		F1E4EA0F1E65AD8B004D76EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E4EA0B1E65AD8B004D76EB /* Info.plist */; };
+		F1E4EA101E65AD8B004D76EB /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E4EA0C1E65AD8B004D76EB /* List.plist */; };
+		F1E4EA111E65AD8B004D76EB /* MenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E4EA0D1E65AD8B004D76EB /* MenuList.plist */; };
+		F1E4EA131E65ADAD004D76EB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4EA121E65ADAD004D76EB /* DataManager.swift */; };
+		FD6919471E5AF7B6008B796A /* StarshipHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6919461E5AF7B6008B796A /* StarshipHeader.xib */; };
+		FDB129C11E378BAC00030FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB129C01E378BAC00030FCE /* AppDelegate.swift */; };
+		FDB129C61E378BAC00030FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB129C41E378BAC00030FCE /* Main.storyboard */; };
+		FDB129C91E378BAC00030FCE /* WinB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB129C71E378BAC00030FCE /* WinB.xcdatamodeld */; };
+		FDB129CB1E378BAC00030FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB129CA1E378BAC00030FCE /* Assets.xcassets */; };
+		FDB129CE1E378BAC00030FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB129CC1E378BAC00030FCE /* LaunchScreen.storyboard */; };
+		FDB129D91E378BAC00030FCE /* WinBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB129D81E378BAC00030FCE /* WinBTests.swift */; };
+		FDB129E41E378BAC00030FCE /* WinBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB129E31E378BAC00030FCE /* WinBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB129D51E378BAC00030FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB129B51E378BAC00030FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB129BC1E378BAC00030FCE;
+			remoteInfo = WinB;
+		};
+		FDB129E01E378BAC00030FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB129B51E378BAC00030FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB129BC1E378BAC00030FCE;
+			remoteInfo = WinB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B15A03CD25A7B93F51A3985 /* Pods_WinBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA0FE449A875BB003CB671E /* Pods-WinB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinB/Pods-WinB.debug.xcconfig"; sourceTree = "<group>"; };
+		50BC759246CE4DE32E3A0FA6 /* Pods_WinBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9DE9AB23164CB1BE678E56 /* Pods_WinB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		745013831333C6678DA41F3D /* Pods-WinBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinBTests/Pods-WinBTests.release.xcconfig"; sourceTree = "<group>"; };
+		99D97AEDE21B886CAD0ECEA1 /* Pods-WinBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinBUITests/Pods-WinBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A8F08ED73F30D28B27E55FB /* Pods-WinBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinBTests/Pods-WinBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E4E9E81E65AC61004D76EB /* AccountsMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsMenuViewController.swift; sourceTree = "<group>"; };
+		F1E4E9E91E65AC61004D76EB /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		F1E4E9EA1E65AC61004D76EB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F1E4E9EB1E65AC61004D76EB /* ContactsProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsProfileViewController.swift; sourceTree = "<group>"; };
+		F1E4E9EC1E65AC61004D76EB /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		F1E4E9ED1E65AC61004D76EB /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		F1E4E9EE1E65AC61004D76EB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F1E4E9EF1E65AC61004D76EB /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		F1E4E9F01E65AC61004D76EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1E4E9FA1E65AC96004D76EB /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		F1E4E9FE1E65AD33004D76EB /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropMenuButton.swift; path = Common/DropMenuButton.swift; sourceTree = "<group>"; };
+		F1E4E9FF1E65AD33004D76EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Common/MBProgressHUD.h; sourceTree = "<group>"; };
+		F1E4EA001E65AD33004D76EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Common/MBProgressHUD.m; sourceTree = "<group>"; };
+		F1E4EA011E65AD33004D76EB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Common/Reachability.h; sourceTree = "<group>"; };
+		F1E4EA021E65AD33004D76EB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Common/Reachability.swift; sourceTree = "<group>"; };
+		F1E4EA031E65AD33004D76EB /* RKDropdownAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKDropdownAlert.h; path = Common/RKDropdownAlert.h; sourceTree = "<group>"; };
+		F1E4EA041E65AD33004D76EB /* RKDropdownAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKDropdownAlert.m; path = Common/RKDropdownAlert.m; sourceTree = "<group>"; };
+		F1E4EA0A1E65AD8B004D76EB /* Accounts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Accounts.plist; path = Plists/Accounts.plist; sourceTree = "<group>"; };
+		F1E4EA0B1E65AD8B004D76EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plists/Info.plist; sourceTree = "<group>"; };
+		F1E4EA0C1E65AD8B004D76EB /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = List.plist; path = Plists/List.plist; sourceTree = "<group>"; };
+		F1E4EA0D1E65AD8B004D76EB /* MenuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MenuList.plist; path = Plists/MenuList.plist; sourceTree = "<group>"; };
+		F1E4EA121E65ADAD004D76EB /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Model/DataManager.swift; sourceTree = "<group>"; };
+		FB76756DA093A73B0558C80A /* Pods-WinBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinBUITests/Pods-WinBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6919461E5AF7B6008B796A /* StarshipHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarshipHeader.xib; sourceTree = "<group>"; };
+		FDB129BD1E378BAC00030FCE /* WinB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB129C01E378BAC00030FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB129C51E378BAC00030FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB129C81E378BAC00030FCE /* WinB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WinB.xcdatamodel; sourceTree = "<group>"; };
+		FDB129CA1E378BAC00030FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB129CD1E378BAC00030FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB129D41E378BAC00030FCE /* WinBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB129D81E378BAC00030FCE /* WinBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinBTests.swift; sourceTree = "<group>"; };
+		FDB129DA1E378BAC00030FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB129DF1E378BAC00030FCE /* WinBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB129E31E378BAC00030FCE /* WinBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinBUITests.swift; sourceTree = "<group>"; };
+		FDB129E51E378BAC00030FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD09FF51E40AD9D0087981B /* WinB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WinB-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF11EE98A694D257F1633723 /* Pods-WinB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinB.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinB/Pods-WinB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB129BA1E378BAC00030FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E058EC3EB93AC97CEB4571A3 /* Pods_WinB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129D11E378BAC00030FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F2D9EDFC932C14AC69B11 /* Pods_WinBTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129DC1E378BAC00030FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7C4EEECCEEA6DA23868675 /* Pods_WinBUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B784D3661F9FAB1CF428123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0FE449A875BB003CB671E /* Pods-WinB.debug.xcconfig */,
+				FF11EE98A694D257F1633723 /* Pods-WinB.release.xcconfig */,
+				9A8F08ED73F30D28B27E55FB /* Pods-WinBTests.debug.xcconfig */,
+				745013831333C6678DA41F3D /* Pods-WinBTests.release.xcconfig */,
+				FB76756DA093A73B0558C80A /* Pods-WinBUITests.debug.xcconfig */,
+				99D97AEDE21B886CAD0ECEA1 /* Pods-WinBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1E4E9E71E65AC61004D76EB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4E9FA1E65AC96004D76EB /* SSASideMenu.swift */,
+				F1E4E9E81E65AC61004D76EB /* AccountsMenuViewController.swift */,
+				F1E4E9E91E65AC61004D76EB /* AccountsViewController.swift */,
+				F1E4E9EA1E65AC61004D76EB /* BaseViewController.swift */,
+				F1E4E9EB1E65AC61004D76EB /* ContactsProfileViewController.swift */,
+				F1E4E9EC1E65AC61004D76EB /* ContactsViewController.swift */,
+				F1E4E9ED1E65AC61004D76EB /* LeftMenuViewController.swift */,
+				F1E4E9EE1E65AC61004D76EB /* MenuViewController.swift */,
+				F1E4E9EF1E65AC61004D76EB /* ResetViewController.swift */,
+				F1E4E9F01E65AC61004D76EB /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F1E4E9FC1E65ACA5004D76EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4EA121E65ADAD004D76EB /* DataManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1E4E9FD1E65ACCA004D76EB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4E9FE1E65AD33004D76EB /* DropMenuButton.swift */,
+				F1E4E9FF1E65AD33004D76EB /* MBProgressHUD.h */,
+				F1E4EA001E65AD33004D76EB /* MBProgressHUD.m */,
+				F1E4EA011E65AD33004D76EB /* Reachability.h */,
+				F1E4EA021E65AD33004D76EB /* Reachability.swift */,
+				F1E4EA031E65AD33004D76EB /* RKDropdownAlert.h */,
+				F1E4EA041E65AD33004D76EB /* RKDropdownAlert.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F1E4EA091E65AD3E004D76EB /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4EA0A1E65AD8B004D76EB /* Accounts.plist */,
+				F1E4EA0B1E65AD8B004D76EB /* Info.plist */,
+				F1E4EA0C1E65AD8B004D76EB /* List.plist */,
+				F1E4EA0D1E65AD8B004D76EB /* MenuList.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		F553C208C10E4B6521EFEFE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B9DE9AB23164CB1BE678E56 /* Pods_WinB.framework */,
+				3B15A03CD25A7B93F51A3985 /* Pods_WinBTests.framework */,
+				50BC759246CE4DE32E3A0FA6 /* Pods_WinBUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDB129B41E378BAC00030FCE = {
+			isa = PBXGroup;
+			children = (
+				FDB129BF1E378BAC00030FCE /* WinB */,
+				FDB129D71E378BAC00030FCE /* WinBTests */,
+				FDB129E21E378BAC00030FCE /* WinBUITests */,
+				FDB129BE1E378BAC00030FCE /* Products */,
+				1B784D3661F9FAB1CF428123 /* Pods */,
+				F553C208C10E4B6521EFEFE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB129BE1E378BAC00030FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB129BD1E378BAC00030FCE /* WinB.app */,
+				FDB129D41E378BAC00030FCE /* WinBTests.xctest */,
+				FDB129DF1E378BAC00030FCE /* WinBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB129BF1E378BAC00030FCE /* WinB */ = {
+			isa = PBXGroup;
+			children = (
+				FDB129C01E378BAC00030FCE /* AppDelegate.swift */,
+				F1E4EA091E65AD3E004D76EB /* Plists */,
+				F1E4E9FD1E65ACCA004D76EB /* Common */,
+				F1E4E9FC1E65ACA5004D76EB /* Model */,
+				F1E4E9E71E65AC61004D76EB /* ViewControllers */,
+				FDB129C41E378BAC00030FCE /* Main.storyboard */,
+				FD6919461E5AF7B6008B796A /* StarshipHeader.xib */,
+				FDB129CA1E378BAC00030FCE /* Assets.xcassets */,
+				FDB129CC1E378BAC00030FCE /* LaunchScreen.storyboard */,
+				FDB129C71E378BAC00030FCE /* WinB.xcdatamodeld */,
+				FDD09FF51E40AD9D0087981B /* WinB-Bridging-Header.h */,
+			);
+			path = WinB;
+			sourceTree = "<group>";
+		};
+		FDB129D71E378BAC00030FCE /* WinBTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB129D81E378BAC00030FCE /* WinBTests.swift */,
+				FDB129DA1E378BAC00030FCE /* Info.plist */,
+			);
+			path = WinBTests;
+			sourceTree = "<group>";
+		};
+		FDB129E21E378BAC00030FCE /* WinBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB129E31E378BAC00030FCE /* WinBUITests.swift */,
+				FDB129E51E378BAC00030FCE /* Info.plist */,
+			);
+			path = WinBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB129BC1E378BAC00030FCE /* WinB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB129E81E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinB" */;
+			buildPhases = (
+				9DED77C734F2360ADB303301 /* [CP] Check Pods Manifest.lock */,
+				FDB129B91E378BAC00030FCE /* Sources */,
+				FDB129BA1E378BAC00030FCE /* Frameworks */,
+				FDB129BB1E378BAC00030FCE /* Resources */,
+				A25D9998562AE20EB8264C08 /* [CP] Embed Pods Frameworks */,
+				D23D85CCB42C94D298CB6970 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinB;
+			productName = WinB;
+			productReference = FDB129BD1E378BAC00030FCE /* WinB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB129D31E378BAC00030FCE /* WinBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB129EB1E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinBTests" */;
+			buildPhases = (
+				F4C5CC87EE23F3A0BBED537D /* [CP] Check Pods Manifest.lock */,
+				FDB129D01E378BAC00030FCE /* Sources */,
+				FDB129D11E378BAC00030FCE /* Frameworks */,
+				FDB129D21E378BAC00030FCE /* Resources */,
+				3094CBD70D3861D4AFEB4291 /* [CP] Embed Pods Frameworks */,
+				0EB43B8A850A1C8CCD7A2E8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB129D61E378BAC00030FCE /* PBXTargetDependency */,
+			);
+			name = WinBTests;
+			productName = WinBTests;
+			productReference = FDB129D41E378BAC00030FCE /* WinBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB129DE1E378BAC00030FCE /* WinBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB129EE1E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinBUITests" */;
+			buildPhases = (
+				8736408D89CEE7B072DC32C0 /* [CP] Check Pods Manifest.lock */,
+				FDB129DB1E378BAC00030FCE /* Sources */,
+				FDB129DC1E378BAC00030FCE /* Frameworks */,
+				FDB129DD1E378BAC00030FCE /* Resources */,
+				AED69061CEA8A755730A4720 /* [CP] Embed Pods Frameworks */,
+				284F45F5844ECA92F017A86E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB129E11E378BAC00030FCE /* PBXTargetDependency */,
+			);
+			name = WinBUITests;
+			productName = WinBUITests;
+			productReference = FDB129DF1E378BAC00030FCE /* WinBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB129B51E378BAC00030FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = karthikps;
+				TargetAttributes = {
+					FDB129BC1E378BAC00030FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S2563877Z5;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					FDB129D31E378BAC00030FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S2563877Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB129BC1E378BAC00030FCE;
+					};
+					FDB129DE1E378BAC00030FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S2563877Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB129BC1E378BAC00030FCE;
+					};
+				};
+			};
+			buildConfigurationList = FDB129B81E378BAC00030FCE /* Build configuration list for PBXProject "WinB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB129B41E378BAC00030FCE;
+			productRefGroup = FDB129BE1E378BAC00030FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB129BC1E378BAC00030FCE /* WinB */,
+				FDB129D31E378BAC00030FCE /* WinBTests */,
+				FDB129DE1E378BAC00030FCE /* WinBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB129BB1E378BAC00030FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB129CE1E378BAC00030FCE /* LaunchScreen.storyboard in Resources */,
+				F1E4EA111E65AD8B004D76EB /* MenuList.plist in Resources */,
+				FDB129CB1E378BAC00030FCE /* Assets.xcassets in Resources */,
+				F1E4EA101E65AD8B004D76EB /* List.plist in Resources */,
+				F1E4EA0F1E65AD8B004D76EB /* Info.plist in Resources */,
+				F1E4EA0E1E65AD8B004D76EB /* Accounts.plist in Resources */,
+				FD6919471E5AF7B6008B796A /* StarshipHeader.xib in Resources */,
+				FDB129C61E378BAC00030FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129D21E378BAC00030FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129DD1E378BAC00030FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB43B8A850A1C8CCD7A2E8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinBTests/Pods-WinBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284F45F5844ECA92F017A86E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinBUITests/Pods-WinBUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3094CBD70D3861D4AFEB4291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinBTests/Pods-WinBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8736408D89CEE7B072DC32C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DED77C734F2360ADB303301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A25D9998562AE20EB8264C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinB/Pods-WinB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED69061CEA8A755730A4720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinBUITests/Pods-WinBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23D85CCB42C94D298CB6970 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinB/Pods-WinB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C5CC87EE23F3A0BBED537D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB129B91E378BAC00030FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E4E9F71E65AC61004D76EB /* MenuViewController.swift in Sources */,
+				F1E4E9F51E65AC61004D76EB /* ContactsViewController.swift in Sources */,
+				FDB129C11E378BAC00030FCE /* AppDelegate.swift in Sources */,
+				F1E4EA051E65AD33004D76EB /* DropMenuButton.swift in Sources */,
+				F1E4E9F31E65AC61004D76EB /* BaseViewController.swift in Sources */,
+				F1E4E9F21E65AC61004D76EB /* AccountsViewController.swift in Sources */,
+				F1E4E9F81E65AC61004D76EB /* ResetViewController.swift in Sources */,
+				F1E4EA061E65AD33004D76EB /* MBProgressHUD.m in Sources */,
+				F1E4E9F41E65AC61004D76EB /* ContactsProfileViewController.swift in Sources */,
+				F1E4EA131E65ADAD004D76EB /* DataManager.swift in Sources */,
+				F1E4E9F91E65AC61004D76EB /* ViewController.swift in Sources */,
+				F1E4E9FB1E65AC96004D76EB /* SSASideMenu.swift in Sources */,
+				F1E4EA081E65AD33004D76EB /* RKDropdownAlert.m in Sources */,
+				FDB129C91E378BAC00030FCE /* WinB.xcdatamodeld in Sources */,
+				F1E4E9F11E65AC61004D76EB /* AccountsMenuViewController.swift in Sources */,
+				F1E4EA071E65AD33004D76EB /* Reachability.swift in Sources */,
+				F1E4E9F61E65AC61004D76EB /* LeftMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129D01E378BAC00030FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB129D91E378BAC00030FCE /* WinBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB129DB1E378BAC00030FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB129E41E378BAC00030FCE /* WinBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB129D61E378BAC00030FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB129BC1E378BAC00030FCE /* WinB */;
+			targetProxy = FDB129D51E378BAC00030FCE /* PBXContainerItemProxy */;
+		};
+		FDB129E11E378BAC00030FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB129BC1E378BAC00030FCE /* WinB */;
+			targetProxy = FDB129E01E378BAC00030FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB129C41E378BAC00030FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB129C51E378BAC00030FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB129CC1E378BAC00030FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB129CD1E378BAC00030FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB129E61E378BAC00030FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB129E71E378BAC00030FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB129E91E378BAC00030FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA0FE449A875BB003CB671E /* Pods-WinB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WinB/WinB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDB129EA1E378BAC00030FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF11EE98A694D257F1633723 /* Pods-WinB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WinB/WinB-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDB129EC1E378BAC00030FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8F08ED73F30D28B27E55FB /* Pods-WinBTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinB.app/WinB";
+			};
+			name = Debug;
+		};
+		FDB129ED1E378BAC00030FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745013831333C6678DA41F3D /* Pods-WinBTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinB.app/WinB";
+			};
+			name = Release;
+		};
+		FDB129EF1E378BAC00030FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB76756DA093A73B0558C80A /* Pods-WinBUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WinB;
+			};
+			name = Debug;
+		};
+		FDB129F01E378BAC00030FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D97AEDE21B886CAD0ECEA1 /* Pods-WinBUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2563877Z5;
+				INFOPLIST_FILE = WinBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthikps.WinBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WinB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB129B81E378BAC00030FCE /* Build configuration list for PBXProject "WinB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB129E61E378BAC00030FCE /* Debug */,
+				FDB129E71E378BAC00030FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB129E81E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB129E91E378BAC00030FCE /* Debug */,
+				FDB129EA1E378BAC00030FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB129EB1E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB129EC1E378BAC00030FCE /* Debug */,
+				FDB129ED1E378BAC00030FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB129EE1E378BAC00030FCE /* Build configuration list for PBXNativeTarget "WinBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB129EF1E378BAC00030FCE /* Debug */,
+				FDB129F01E378BAC00030FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDB129C71E378BAC00030FCE /* WinB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDB129C81E378BAC00030FCE /* WinB.xcdatamodel */,
+			);
+			currentVersion = FDB129C81E378BAC00030FCE /* WinB.xcdatamodel */;
+			path = WinB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDB129B51E378BAC00030FCE /* Project object */;
+}

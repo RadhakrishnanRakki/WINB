@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.2.0)
+  - MXParallaxHeader (0.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - MXParallaxHeader
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  MXParallaxHeader: 2997592b8349baf8557ae0e4346f6b17e141de39
+
+PODFILE CHECKSUM: 32b687f215552b5cab483016fa377a96f6c56a3c
+
+COCOAPODS: 1.1.1

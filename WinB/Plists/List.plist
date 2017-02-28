@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>TitleName</key>
+		<string>ACCOUNTS</string>
+		<key>SelectedImage</key>
+		<string>ic_person_black_-1</string>
+		<key>UnSelectedImage</key>
+		<string>ic_person_black_24px (7)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>CONTACTS</string>
+		<key>SelectedImage</key>
+		<string>ic_phone_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_phone_black_24px (4)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>DASHBOARD</string>
+		<key>SelectedImage</key>
+		<string>ic_dashboard_black_-1</string>
+		<key>UnSelectedImage</key>
+		<string>ic_dashboard_black_24px (1)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>DEALS</string>
+		<key>SelectedImage</key>
+		<string>OpkYir.tif_-3</string>
+		<key>UnSelectedImage</key>
+		<string>OpkYir.tif_1_</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>REPORTS</string>
+		<key>SelectedImage</key>
+		<string>ic_report_black_-1</string>
+		<key>UnSelectedImage</key>
+		<string>ic_report_black_24px (1)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>CALENDAR</string>
+		<key>SelectedImage</key>
+		<string>ic_date_range_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_date_range_black_24px (15)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>MESSAGE</string>
+		<key>SelectedImage</key>
+		<string>ic_message_black_-1</string>
+		<key>UnSelectedImage</key>
+		<string>ic_message_black_24px</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>SETTINGS</string>
+		<key>SelectedImage</key>
+		<string>ic_settings_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_settings_black_24px (7)</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>LOGOUT</string>
+		<key>SelectedImage</key>
+		<string>ic_settings_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>sign-out</string>
+	</dict>
+</array>
+</plist>

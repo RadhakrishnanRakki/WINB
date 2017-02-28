@@ -1,0 +1,6 @@
+framework module Pods_WinBTests {
+  umbrella header "Pods-WinBTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

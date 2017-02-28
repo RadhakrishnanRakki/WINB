@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>TitleText</key>
+		<string>Account Name</string>
+		<key>PlaceholderText</key>
+		<string>Enter Account Name</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Website</string>
+		<key>PlaceholderText</key>
+		<string>Enter Website</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Phone</string>
+		<key>PlaceholderText</key>
+		<string>Enter Office Phone</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Annual Revenue</string>
+		<key>PlaceholderText</key>
+		<string>Enter Annual Revenue</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Address</string>
+		<key>PlaceholderText</key>
+		<string>Enter Address Line ( Flat/House no., Floor Building)</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Select country</string>
+		<key>PlaceholderText</key>
+		<string>Choose an option</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Select State</string>
+		<key>PlaceholderText</key>
+		<string>Choose State</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Select City</string>
+		<key>PlaceholderText</key>
+		<string>Choose City</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>No of employees</string>
+		<key>PlaceholderText</key>
+		<string>Choose no of employees</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Zipcode</string>
+		<key>PlaceholderText</key>
+		<string>Enter Zipcode</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Facebook</string>
+		<key>PlaceholderText</key>
+		<string>Enter Facebook URL</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Twitter</string>
+		<key>PlaceholderText</key>
+		<string>Enter Twitter URL</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Linkedln</string>
+		<key>PlaceholderText</key>
+		<string>Enter Linkedln URL</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Owner</string>
+		<key>PlaceholderText</key>
+		<string>Enter Name</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Industry Type</string>
+		<key>PlaceholderText</key>
+		<string>Choose an Industry type</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Business type</string>
+		<key>PlaceholderText</key>
+		<string>Choose an Business Type</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>TitleText</key>
+		<string>Business category</string>
+		<key>PlaceholderText</key>
+		<string>Choose an Business Category</string>
+		<key>EnteredText</key>
+		<string></string>
+		<key>Type</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

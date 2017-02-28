@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>TitleName</key>
+		<string>Contacts</string>
+		<key>SelectedImage</key>
+		<string>ic_phone_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_phone_black_-2</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>Accounts</string>
+		<key>SelectedImage</key>
+		<string>ic_person_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_person_black_-2</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>Deals</string>
+		<key>SelectedImage</key>
+		<string>OpkYir.tif_-3</string>
+		<key>UnSelectedImage</key>
+		<string>OpkYir.tif_-2</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>Calendar</string>
+		<key>SelectedImage</key>
+		<string>ic_phone_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_phone_black_-2</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>Reports</string>
+		<key>SelectedImage</key>
+		<string>ReportBlueYellow</string>
+		<key>UnSelectedImage</key>
+		<string>ReportBlue</string>
+	</dict>
+	<dict>
+		<key>TitleName</key>
+		<string>Settings</string>
+		<key>SelectedImage</key>
+		<string>ic_settings_black_-3</string>
+		<key>UnSelectedImage</key>
+		<string>ic_settings_black_-2</string>
+	</dict>
+</array>
+</plist>
